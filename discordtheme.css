@@ -73,6 +73,8 @@
   --home-icon: url(https://clearvision.gitlab.io/icons/discord.svg);
   --home-position: center;
   --home-size: 40px;
+  --theme-name: "ClearVision";
+  --theme-version: "v6.0.3";
 }
 
 .appMount-3lHmkl {
@@ -328,14 +330,14 @@ textarea,
 }
 
 .typeWindows-1za-n7 > .wordmark-2iDDfm:before {
-  content: /*"ClearVision"*/ "";
+  content: var(--theme-name);
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   text-shadow: 0 0 3px #000;
 }
 
 .typeWindows-1za-n7 > .wordmark-2iDDfm:after {
-  content: /*"v6.0.3"*/ "";
+  content: var(--theme-version);
   color: rgba(255, 255, 255, 0.3);
   font-family: var(--code-font);
   font-size: 10px;
@@ -1612,14 +1614,14 @@ ul.tree-3tCaw8 {
 }
 
 .container-3baos1:before {
-  content: /*"ClearVision"*/ "";
+  content: var(--theme-name);
   right: 50%;
   text-align: right;
   transform: translateX(50%);
 }
 
 .container-3baos1:after {
-  content: /*"v6.0.3"*/ "";
+  content: var(--theme-version);
   left: 50%;
   text-align: left;
   opacity: 0;
